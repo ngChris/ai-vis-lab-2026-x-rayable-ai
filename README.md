@@ -17,10 +17,10 @@ Additional dataset (optional): If we cannot obtain access to the full CheXpert d
 
 # Links
 
-Paper (TorchXRayVision): https://arxiv.org/abs/2111.00595
-Model / code: https://github.com/mlmed/torchxrayvision
-Documentation: https://mlmed.org/torchxrayvision/
-Training data of the model (CheXpert): https://arxiv.org/abs/1901.07031
-Dataset labels (Google relabels): https://pubs.rsna.org/doi/10.1148/radiol.2019191293
-Dataset images (NIH ChestX-ray14): https://www.kaggle.com/datasets/nih-chest-xrays/data
-Kaggle (CheXpert-v1.0-small): https://www.kaggle.com/datasets/ashery/chexpert
+1. Paper (TorchXRayVision): https://arxiv.org/abs/2111.00595
+2. Model / code: https://github.com/mlmed/torchxrayvision
+3. Documentation: https://mlmed.org/torchxrayvision/
+4. Training data of the model (CheXpert): https://arxiv.org/abs/1901.07031
+5. Dataset labels (Google relabels): https://pubs.rsna.org/doi/10.1148/radiol.2019191293
+6. Dataset images (NIH ChestX-ray14): https://www.kaggle.com/datasets/nih-chest-xrays/data
+7. Kaggle (CheXpert-v1.0-small): https://www.kaggle.com/datasets/ashery/chexpert
