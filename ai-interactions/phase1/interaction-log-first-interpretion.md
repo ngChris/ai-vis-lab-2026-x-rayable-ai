@@ -4,7 +4,7 @@
 
 # 1. Prompt
 
-can you analyze and interpret this plots. The binary scatter plots show the ground truth label,s the model score shows how the model predicted.
+Can you analyze and interpret this plots. The binary scatter plots show the ground truth label,s the model score shows how the model predicted.
 
 # 2. AI Response
 
