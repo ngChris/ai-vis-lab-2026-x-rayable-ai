@@ -1,13 +1,34 @@
 {
-    "team_name": "Team Name",
+    "team_name": "x-rayable AI",
     "students": [
         {
-            "student_id": "k00000000",
-            "first_name": "First",
-            "last_name": "Last",
-            "email": "first.last@mail.com",
-            "github_user": "mygitusername"
+            "student_id": "k01155128",
+            "first_name": "Christoph",
+            "last_name": "Schmid",
+            "email": "chrisiover9000@gmail.com",
+            "github_user": "ngChris"
         },
-        // ...add a record for each student
+	{
+            "student_id": "K12509982",
+            "first_name": "Lisa",
+            "last_name": "Rastegar",
+            "email": "lisa.rastegar@gmail.com",
+            "github_user": "rasteli3"
+        },
+	{
+            "student_id": "k51819883",
+            "first_name": "Christian Maria",
+            "last_name": "Loy",
+            "email": "christianmloy@yahoo.com",
+            "github_user": "MariaLoy"
+        },
+
+	{
+            "student_id": "k0773343",
+            "first_name": "Klara",
+            "last_name": "Balić",
+            "email": "klara.balic@gmail.com",
+            "github_user": "klarbal"
+        }
     ]
 }
