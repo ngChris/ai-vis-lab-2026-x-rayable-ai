@@ -1,6 +1,6 @@
-# AI Interaction 003 — Analysis of the second research question output
+# AI Interaction 004 — Analysis of the third research question output
 
-**Context**
+**Are false positives disproportionately associated with particular patient or image characteristics, especially AP/PA view, age and sex?**
 
 # 1. Prompt
 
@@ -118,7 +118,7 @@ This could immediately reveal whether the effects are:
 I would consider this one of the highest-value next visualizations.
 
 
-[Complete AI Response](./03_r1_analysis_output.md)
+[Complete AI Response](./05_r3_analysis_output.md)
 
 ## 3. What we did
 

@@ -1,11 +1,25 @@
 {
-    "team_name": "Team Name",
+    "team_name": "x-rayable AI",
     "students": [
         {
-            "first_name": "First",
-            "last_name": "Last",
+            "first_name": "Christian Maria",
+            "last_name": "Loy",
             "workload": 0.25
         },
-        // ...add a record for each student
+        {
+            "first_name": "Lisa",
+            "last_name": "Rastegar",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Klara",
+            "last_name": "Balić",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Christoph",
+            "last_name": "Schmid",
+            "workload": 0.25
+        }
     ]
 } 
