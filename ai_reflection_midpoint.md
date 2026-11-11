@@ -30,3 +30,7 @@ Lisa Rastegar, k12509982
 ## Used models
 * GPT-6 (assessment, brainstorming, analysis)
 * GPT-6.1 Sol (coding, implementation)
+
+## Full group reflection on GenAI vs human only
+Full group reflection can be found [here](reflection_on_GenAI_usage_midpoint.md)
+

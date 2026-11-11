@@ -22,3 +22,6 @@ Verifying and correcting introduced additional work and the AI-derived suggestio
 ## How did the two pairs differ in their confidence in their conclusions, and what evidence justified that confidence?
 
 The HO pair is somewhat more confident in their conclusions, though it is hard to distinguish what is due to the different usage of GenAI (as described above with the hypothesis-visualisation feedback loops) and what is due to personal medical-domain-specific expertise of the HO pair.
+
+## AI only pair reflection
+AI only reflection can be found [here](ai_reflection_midpoint.md)
