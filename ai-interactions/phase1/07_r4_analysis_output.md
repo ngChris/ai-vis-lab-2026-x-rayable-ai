@@ -1,4 +1,4 @@
-# AI Interaction — Analysis of the sixth research question output
+# AI Interaction — Analysis of augmentation output
 
 **How sensitive does the model respond to certain data augmentations?**
 
