@@ -26,7 +26,7 @@ Analyse and interpret the diagrams. find any patterns that might be worth to inv
 
 ## 3. What we did
 
-1. The AI was correct in describe the plots, but i didn't provide as any insights or cues. The same goes for 2. We iteratively improved the viewer/plots with the help of the AI (e.g. add hover text) and replaced matplotlib with plotly for more complex visualization. However, we still were not able to detect meaningful patterns or insights about the model. Instead the AI lead us to more complex viszalization often ending in regression analysis.
+The AI was correct in describe the plots, but i didn't provide as any insights or cues. The same goes for 2. We iteratively improved the viewer/plots with the help of the AI (e.g. add hover text) and replaced matplotlib with plotly for more complex visualization. However, we were still not able to detect meaningful patterns or insights about the model. Instead the AI lead us to more complex viszalization often ending in regression analysis.
 
 To get a more structured approach and not let the AI walk us in endless loops, we tried to formulate research questions based on the one the formulated in the Analysis response.
 

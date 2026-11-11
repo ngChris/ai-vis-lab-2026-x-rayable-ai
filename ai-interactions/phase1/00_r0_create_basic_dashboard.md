@@ -20,7 +20,7 @@ I want to create plots for a interactive dashboard to better understand how the 
 
 **Decision:** Partly applied
 
-We applied the suggestion for PCA, UMAP and t-SNE but rejected the idea of downprojecting on the models embeddings space as this is a more suitable task for phase 2. We developed plots for the downprojections methods based on the visualization functions the AI provided.
+We applied the suggestion for PCA, UMAP and t-SNE but **rejected** the idea of downprojecting on the models embeddings space as this is a more suitable task for phase 2. We developed plots for the downprojections methods based on the visualization functions the AI provided.
 
 We also prepared plots for the confusion matrix in multiple iterations also with the help of AI. The confusion matrix plots revealed that only on one of the pathologies (Lung Opacity) the model was performing well, and since there are only 3 pathologies we could use with the Google NHI dataset we decided to focus only on the CheX dataset. We repeated the experiment with the CheX dataset.
 
