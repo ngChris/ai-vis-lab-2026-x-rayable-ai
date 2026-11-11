@@ -1,5 +1,9 @@
 # Report AI Interaction
 
+## AI-aided pair
+Christoph Schmid, k01155128
+Lisa Rastegar, k12509982
+
 ## Observed failure patterns
 * **Time-consuming rabbit holes:** AI suggestions sometimes led to unnecessary investigations and attempts to tie up loose ends, consuming more time than expected.
 
