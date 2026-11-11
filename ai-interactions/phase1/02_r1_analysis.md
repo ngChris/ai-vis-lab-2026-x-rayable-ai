@@ -14,50 +14,11 @@ We used a threshold of 0.7. For downprojection we used S-UMAP.
 
 # 2. AI Response
 
-## Summary of the important text parts
-
-A. Strongly separated error regions — especially Edema, Effusion, Pneumonia
-These are the most interesting results.
-
-For Edema and Effusion, S-UMAP produces two very distinct image regions. The classification plot then shows something striking:
-- one region is dominated by false negatives (pink),
-- the other region is dominated by false positives (orange),
-- while relatively few correct predictions are visible compared with the two error types.
-The same broad pattern appears for Pneumonia.
-
-This suggests that the model is not simply making random mistakes. Rather, different regions of the image space correspond to different failure modes.
-
-A good interpretation is:
-The model appears to behave differently for different subpopulations of images within the same pathology. Some image regions are associated predominantly with missed positives, whereas other regions are associated predominantly with spurious positive predictions.
-
-
-...
-
-
-2. Atelectasis and Cardiomegaly show a similar pattern
-For Atelectasis and Cardiomegaly, the ground-truth plots again show a relatively clear separation between the finding-present and finding-absent populations.
-
-But the classification plots reveal that the large regions contain substantial mixtures of:
-- false positives,
-- false negatives,
-- and some correct predictions.
-So here the model failure is less cleanly localized.
-
-
-...
-
-
-
-3. Consolidation, Lung Lesion, Lung Opacity and Pneumothorax look more heterogeneous
-For Consolidation, Lung Lesion, Lung Opacity, and Pneumothorax, FP and FN points are much more intermingled with each other.
-
-This means that the projection does not give you a simple story such as:
-"This region = false negatives; that region = false positives."
-
-Instead, the model seems to encounter a continuous/heterogeneous range of cases, with errors distributed throughout the main manifold and around its boundaries.
-
-That gives you another potentially useful hypothesis:
-Some pathologies exhibit localized failure modes, whereas others exhibit diffuse errors throughout the image manifold.
+1. S-UMAP only claims where FP/FN occur withing the pathology-specific image manifold.
+2. AI suggests that Downprojection reveals systematic spatial organization of model errors, and the organization differs substantially across pathologies.
+3. AI revealed that gender does not visually explain the errors.
+4. AI created the research question: Are FP and FN regions actually low-margin regions, or are they confidently wrong?
+5. AI suggests as next step to quantify the **local** FP/FN rates.
 
 [Complete AI Response](./02_r1_analysis_output.md)
 
@@ -69,10 +30,10 @@ The AI identified a potentially interesting pattern in the embeddings. For some 
 
 For the other pathologies, the embeddings appeared more diffuse, with no similarly clear separation between clusters.
 
-At first, this seemed like an interesting direction for further investigation as the AI suggested. However, we decided not to investigate the embedding clusters further for now. UMAP is a dimensionality-reduction technique that projects high-dimensional feature representations into a lower-dimensional space. Therefore, apparent distances, cluster sizes, and separations in the 2D projection cannot automatically be interpreted as meaningful relationships in the original feature space.
+The AI repeatly warned about S-UMAP limited interpretability (which is of course correct) but somehow still guided us in using more UMAP techhniques for visualization. We continued with the AI to create plots to visualize the local FP/FN rates by using an k-nearest neighbors algorithm. 
 
-### Formulate new research questions
+We could htne observe: The model's false-positive behavior is pathology-dependent and, for several findings, spatially heterogeneous. This suggests that particular subpopulations of images may be associated with an increased likelihood of false-positive predictions.
 
-To get even further down how different meta data of the images are related to the false positive rate and false negative reate, we formulated the questions
+The AI then suggested to compare Age/View/Gender characteristics, this is hower already done in research question 3.
 
-**Are false positives disproportionately associated with particular patient or image characteristics, especially AP/PA view, age and sex?**
+
