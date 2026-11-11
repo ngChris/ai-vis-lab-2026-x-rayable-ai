@@ -14,4 +14,4 @@ Can you annotate the xray images with the following: Basal opacity,Low lung volu
 
 ## 3. What we did
 
-While the AI was able to recover some certain findings like medical devices, we were unsure about other pathologies. As we are not experts in xray images, were not confident enough to trust the AI provided annotations.
+While the AI was able to recover some certain findings like medical devices, we were unsure about other pathologies. As we are not experts in xray images, we were not confident enough to trust the AI provided annotations.
