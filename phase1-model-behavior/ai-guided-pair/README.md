@@ -16,4 +16,6 @@ They are structured in the following way:
 | [R5 - Confidence in Prediction ](r5_does_the_model_know_when_it_is_wrong.ipynb.ipynb) | Visualizations for **Does the model know when it is wrong?** |
 | [R6 - NN Analysis ](r6_kNN_analysis.ipynb) | Visualizations for **Are the model's predictions locally consistent among visually similar X-ray images, and does this consistency differ between correctly and incorrectly classified samples?** |
 
-In addition, we added the notebooks as HTML files in the folder html_notebooks in case the notebooks are not working.
+In addition, we added the notebooks as HTML files in the folder html_notebooks in case the notebooks are not working or in the html_plots.
+
+Note: Sometimes the Browser cannot show plotly plot. Please open the notebook with VS code.

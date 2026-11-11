@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pandas
+scikit-learn
+jupyter
+ipympl
+seaborn
+plotly
+umap-learn
+torch
+torchvision
+torchxrayvision
